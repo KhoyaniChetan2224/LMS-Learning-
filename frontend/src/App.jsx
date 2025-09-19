@@ -7,7 +7,6 @@ import AdminHome from './components/Admin/AdminHome';
 import AdminHeader from './components/Admin/Admin Header/header';
 import Live from './components/Admin/live';
 import ScheduleClass from './components/Admin/ScheduleClass';
-import UpcomingLiveClasses from './components/Admin/UpcomingLiveClasse';
 
 import TeacherHome from './components/teachers/Home';
 import TeacherHeader from './components/teachers/header/header';
@@ -31,7 +30,6 @@ const App = () => {
         <Route path="/admin/header" element={<AdminHeader />} />
         <Route path="/admin/live" element={<Live />} />
         <Route path="/admin/schedule-class" element={<ScheduleClass />} />
-        <Route path="/admin/upcoming-live-classes" element={<UpcomingLiveClasses />} />
 
         {/* Teacher Route */}
         <Route path="/teachers/home" element={<TeacherHome />} />
