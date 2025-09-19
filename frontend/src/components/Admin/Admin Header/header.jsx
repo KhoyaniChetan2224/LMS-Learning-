@@ -49,11 +49,11 @@ const AdminHeader = () => {
           bg-stone-50 text-black
         `}
       >
-        <div className="flex w-full h-full items-center justify-center mb-8 px-0">
+        <div className="flex w-full items-center justify-center mb-8 px-0">
           <img
             src={logo}
             alt="Logo"
-            className="w-full h-20 mt-10 rounded-full object-cover border-4 animate-bounce border-slate-700"
+            className="w-full h-20 rounded-full object-cover border-4 animate-bounce border-slate-700"
           />
         </div>
 
@@ -61,7 +61,6 @@ const AdminHeader = () => {
           {[
             { icon: <IoHome />, name: "Home", path: "/admin/home" },
             { icon: <IoCalendar />, name: "Schedule a Trial Class", path: "/admin/schedule-class" },
-            { icon: <MdUpcoming />, name: "Upcoming Live Classes", path: "/admin/upcoming-live-classes" },
             { icon: <MdAssignment />, name: "My Homework", path: "#" },
             { icon: <MdHistory />, name: "My Past Classes", path: "#" },
             { icon: <MdQuiz />, name: "Test Yourself", path: "#" },
